@@ -107,9 +107,7 @@ public:
         consensus.vUpgrades[Consensus::UPGRADE_SAPLING].nProtocolVersion = 770006;
         consensus.vUpgrades[Consensus::UPGRADE_SAPLING].nActivationHeight = 328500;
         consensus.vUpgrades[Consensus::UPGRADE_CANOPY].nProtocolVersion = 770012;
-        //consensus.vUpgrades[Consensus::UPGRADE_CANOPY].nActivationHeight = 1680000;
-        consensus.vUpgrades[Consensus::UPGRADE_CANOPY].nActivationHeight = 
-            Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
+        consensus.vUpgrades[Consensus::UPGRADE_CANOPY].nActivationHeight = 1680000;
 
         consensus.nFundingPeriodLength = consensus.nSubsidyHalvingInterval / 48;
 
@@ -392,9 +390,7 @@ public:
         consensus.vUpgrades[Consensus::UPGRADE_SAPLING].nActivationHeight = 1500;
             Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
         consensus.vUpgrades[Consensus::UPGRADE_CANOPY].nProtocolVersion = 770012;
-        //consensus.vUpgrades[Consensus::UPGRADE_CANOPY].nActivationHeight = 840000;
-        consensus.vUpgrades[Consensus::UPGRADE_CANOPY].nActivationHeight = 
-            Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
+        consensus.vUpgrades[Consensus::UPGRADE_CANOPY].nActivationHeight = 840000;
 
         consensus.nFundingPeriodLength = consensus.nSubsidyHalvingInterval / 48;
 
