@@ -138,9 +138,9 @@ public:
         {
             // BP, ZF and MG each use a single address repeated 96 times,
             // once for each funding period.
-            std::vector<std::string> bp_addresses(96, "t3PvriaT5d67LnjPzSZF8VCeRCV1UViANJL");
-            std::vector<std::string> zf_addresses(96, "t3S7sqzwNMe6Hc4pYVFnUrYEkUNeWqZuZaG");
-            std::vector<std::string> mg_addresses(96, "t3N9yQChEYNR3Vx5u5YWmMRPBUJ5d7FjQkV");
+            std::vector<std::string> bp_addresses(96, "t3cq6DPTZbVShmY5hs4NLJyBhTfw5KNZNcf");
+            std::vector<std::string> zf_addresses(96, "t3LUnrQk7pHJTvTyTVzdDHNVamMGfvXAi4k");
+            std::vector<std::string> mg_addresses(96, "t3URkWgiiYVNTAvKHy5HdPia3hft9byrsNz");
 
             consensus.AddZIP207FundingStream(
                 keyConstants,
