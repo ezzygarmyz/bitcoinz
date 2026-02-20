@@ -31,7 +31,7 @@ jobs:
           mkdir -p depends/SDKs
           wget -O depends/SDKs/Xcode15-SDK.tar.gz $SDK_URL
           # Verify checksum
-          echo "4daaed2ef2253c9661779fa40bfff50655dc7ec45801aba5a39653e7bcdde48e  depends/SDKs/Xcode15-SDK.tar.gz" | sha256sum -c -
+          echo "c0c2e7bb92c1fee0c4e9f3a485e4530786732d6c6dd9e9f418c282aa6892f55d  depends/SDKs/Xcode15-SDK.tar.gz" | sha256sum -c -
           # Extract SDK
           tar -xzf depends/SDKs/Xcode15-SDK.tar.gz -C depends/SDKs
           export SDK_PATH=$PWD/depends/SDKs
